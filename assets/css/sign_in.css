@@ -157,5 +157,9 @@ footer p {
     nav, .icons {
         display: none;
     }
+
+    .vhod_border {
+        border: none;
+    }
     
 }
