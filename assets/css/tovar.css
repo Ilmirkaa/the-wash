@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .5s;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #A0866B;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+header h2 {
+    color: white;
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    font-family: "Raleway", sans-serif;
+
+}
+
+nav a {
+    font-size: 16px;
+    color: white;
+}
+
+nav a:hover {
+    color: rgb(35, 35, 35);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    cursor: pointer;
+}
+
+/* tovar */
+
+.tovar {
+    padding: 90px 0;
+    margin: 0 auto;
+}
+
+.tov {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.tov img {
+    width: 400px;
+}
+
+.zag {
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    padding-top: 100px;
+}
+
+.tovar_content p {
+    width: 600px;
+}
+
+.sostav {
+    font-family:"Raleway", sans-serif ;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 28px;
+    padding-bottom: 24px;
+}
+
+.zag h3 {
+    font-family: "Aboreto", system-ui;
+    font-size: 20px;
+    
+}
+
+.les {
+    font-family: "Aboreto", system-ui;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+
+button {
+    border: 1px solid #000;
+    color: #000;
+    padding: 15px;
+    width: 130px;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid #8A6135;
+    color: white;
+    background-color: #8A6135;
+}
+
+.tovar h2 {
+    color: rgba(0, 0, 0, 0.76);
+    font-size: 40px;
+    font-family: "Aboreto", system-ui;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 24px;
+    font-weight: 400;
+}
+
+.tov_txt {
+    padding-left: 40px;
+}
+
+
+footer {
+    padding: 40px;
+    background-color: #A0866B;
+}
+
+footer h2 {
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 32px;
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+
+
+footer p {
+    color: white;
+}
+
+.fa-solid.fa-bars {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+@media (max-width:400px) {
+    .tov {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .tov img {
+        width: 300px;
+    }
+
+    .zag {
+        display: flex;
+        align-items: center;
+        gap: 100px;
+       
+    }
+    
+    .tovar_content p {
+        width: 300px;
+    }
+    
+    .tovar h2 {
+        color: rgba(0, 0, 0, 0.76);
+        font-size: 24px;
+        font-family: "Aboreto", system-ui;
+        padding-left: 40px;
+        padding-top: 40px;
+        padding-bottom: 24px;
+        font-weight: 400;
+    }
+
+    .fa-solid.fa-bars {
+        display: block;
+    }
+
+    nav, .icons {
+        display: none;
+    }
+    
+}
