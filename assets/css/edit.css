@@ -61,12 +61,7 @@ nav a:hover {
     margin: 0 auto;
 }
 
-.vhod_border {
-    border: 1px solid #000;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    
-}
+
 
 .vhod h2 {
     color: rgba(0, 0, 0, 0.76);
@@ -161,5 +156,5 @@ footer p {
         display: none;
     }
     
-    
+
 }
